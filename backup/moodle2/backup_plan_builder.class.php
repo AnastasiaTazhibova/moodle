@@ -49,6 +49,7 @@ require_once($CFG->dirroot . '/backup/moodle2/backup_subplugin.class.php');
 require_once($CFG->dirroot . '/backup/moodle2/backup_settingslib.php');
 require_once($CFG->dirroot . '/backup/moodle2/backup_stepslib.php');
 require_once($CFG->dirroot . '/backup/moodle2/backup_custom_fields.php');
+require_once($CFG->dirroot . '/backup/moodle2/backup_qtype_plugin_using_extra_fields_methods.class.php');
 
 // Load all the activity tasks for moodle2 format
 $mods = core_component::get_plugin_list('mod');
